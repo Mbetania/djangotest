@@ -1,0 +1,21 @@
+# ignorar archivos compilados de python
+__pycache__/
+*.py[cod]
+*$py.class
+
+#ignorar la base de datos
+*.sqliter3
+
+#ignorar el archivo de conf local
+#ignorar settings para produccion y otro de desarrollo
+*.log
+
+#ignorar archivos de media y static cuando se recogen en produccion
+static/
+media/
+
+#ignorar los archivos de migracion
+*/*/migrations/*
+
+#ignorar archivos config de ide
+.vscode/
