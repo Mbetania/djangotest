@@ -66,6 +66,8 @@ TEMPLATES = [
         },
     },
 ]
+#Si no quiero usar jinja2 debo reemplazar por:
+# ''django.template.backends.django.DjangoTemplates'
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
