@@ -53,7 +53,7 @@ ROOT_URLCONF = 'myproject.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'BACKEND': 'django.template.backends.jinja2.Jinja2',
         'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -68,6 +68,9 @@ TEMPLATES = [
 ]
 #Si no quiero usar jinja2 debo reemplazar por:
 # ''django.template.backends.django.DjangoTemplates'
+
+#Si quiero usar jinja2 debo poner:
+#'django.template.backends.jinja2.Jinja2'
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
