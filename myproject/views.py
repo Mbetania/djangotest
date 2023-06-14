@@ -8,4 +8,4 @@ def add_user(request):
     user.save()
     return HttpResponseRedirect('/')
 
-  retur render(request, 'addUser.html')
+  return render(request, 'addUser.html')

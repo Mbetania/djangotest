@@ -20,5 +20,5 @@ from .views import add_user
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('add/', add_user, name=add_user)
+    path('add/', add_user, name='add_user')
 ]
