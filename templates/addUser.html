@@ -1,0 +1,17 @@
+<!-- templates/agregar_usuario.html -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Agregar Usuario</h2>
+
+<form method="POST">
+  {% csrf_token %}
+  Nombre:<br>
+  <input type="text" name="nombre" required>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
